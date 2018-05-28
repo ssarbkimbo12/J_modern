@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<!--link rel="stylesheet" type="text/css" href="normalize.css"-->
+	<!--meta property="og:image" content="./section/thumbnail.jpg"-->
+	<meta property="og:title" content="Harmony of two different architecture style">
+	<meta property="og:description" content="this site was made for introducing two different architecture style ">
+	<meta charset="utf-8">
+	<title>All about japanese modern architecture</title>
+
+	<script type="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto+Condensed:400,400i"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script> 
+	$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  	});
+	});
+	</script>
+
+	<style>
+			/*beige color:#f0ede3*/
+		/*red color:#aa2c13*/
+		/*gray color:#d5d6d4*/
+
+		.style1 {font-family: 'Roboto Condensed', sans-serif;}
+		.style2 {font-family: 'EB Garamond',serif;}
+		body{background:white;}
+
+		.wrap{width: 1400px; margin:auto; position: relative; overflow: hidden;}
+
+		#back1{background:url("./source/section1.png");background-size: 100% auto; height: 1348px;}
+		#back2{background:url("./source/section2.png");background-size: 100% auto; height: 1966px;}
+		#back3{background:url("./source/section3.png");background-size: 100% auto; height: 4617px;}
+		#back4{background:url("./source/section4.png");background-size: 100% auto; height: 4319px;}
+		#back5{background:url("./source/section5.png");background-size: 100% auto; height: 1823px;}
+		#back6{background:url("./source/section6.png");background-size: 100% auto; height: 300px;}
+	
+
+			h1,h2{position:absolute; text-align:center;}
+			img,div,p,h1,h2{position:absolute;}
+
+		/*----------menu-----------------*/
+
+		a:link, a:visited, a:active{text-decoration: none; color:#FF9933;}
+		nav{width:600px; background:rgba(255,0); border:3px; border-color: #FF9933; border-style: solid; 
+			margin:0; float: right; height: 30px; position: fixed; z-index: 9999; left:0px; top:10px;}
+		nav #logo img{position:absolute;width:50px; height: 23px; display: block; z-index: 9999; 
+			display:block; left: calc(50% - 30px); top:15%;}
+		nav #mainNav{float: left; margin: 0;padding: 0; width: 600px;}
+		nav #mainNav li{float:left; width: 300px; list-style: none;}
+		nav #mainNav a{display:block; line-height: 30px; text-align: center;}
+		nav #menuItem a:hover{text-decoration:underline; transform: rotate(2deg);}
+		nav #logo img:hover{transform:rotate(2deg);}
+
+/*---------------------top-----------------------*/
+		#top{
+		position: fixed;
+		bottom:0;
+		right:-110px;
+		width:200px;
+		z-index: 9999
+	}
+
+/*--------------------footer------------------*/
+		#contents6 #footer_box{width: 1400px; height: 280px; background:#aa2c13; top:20px;}
+
+		#contents6 #footer_line{width: 1400px; height: 5px; background:#aa2c13; top:12px;}
+
+		#contents6 #footer-text3 {color:#f0ede3;font-size: 1em; width: 500px; text-align: right; letter-spacing:2px;top:20px;right:30px;line-height: 35px;}
+
+		#contents6 #footer-text5 {color:#f0ede3;font-size: 2em; width: 800px; text-align: justify; letter-spacing:2px;top:50px;left:30px;line-height: 35px;}
+
+	</style>
+</head>
+
+<body>
+	<!--------------오디오-------------->
+<audio autoplay>
+  <source src="./source/bgm.ogg" type="audio/ogg">
+  <source src="./source/bgm.mp3" type="audio/mpeg">
+</audio>
+
+<!-------------메뉴---------------->
+
+<div class="wrap" id="menulist">
+<nav>
+			<ul id="mainNav">
+				<li id="menuItem">
+					<a href="https://ssarbkimbo12.github.io/K_traditional/" target="_blank" class="style2"><b>Korean traditioanl</b></a>
+				</li>
+				<li id="logo">
+					<a href="https://ssarbkimbo12.github.io/main/"><img src="./source/logo.png"></a>
+				</li>
+				<li id="menuItem">
+					<a href="#" target="_blank" class="style1"><em><b>Japanese modern</b></em></a>
+				</li>
+
+			</ul>
+	</nav>
+</div>
+
+
+
+
+
+
+<!------------top---------------->
+<a href="#menulist" class="style1" target="_new">
+				<p id="top" style="color: #FF9933; font-size:1.4em;"><em><b>TOP^</b></em>
+				</p>
+			</a>
+
+<!----------------section1------------>
+
+<header id="contents1">
+<div class="wrap" id="back1">
+		</div>
+</header>
+
+<!----------------section2------------>
+
+<section id="contents2">
+		<div class="wrap" id="back2">
+</div>
+</section>
+
+<!----------------section3------------>
+
+<section id="contents3">
+		<div class="wrap" id="back3">
+</div>
+</section>
+
+<!----------------section4------------>
+
+<section id="contents4">
+		<div class="wrap" id="back4">
+</div>
+</section>
+
+<!----------------section5------------>
+
+<section id="contents5">
+		<div class="wrap" id="back5">
+</div>
+</section>
+
+
+<!------------footer---------------->
+<footer id="contents6">
+		<div class="wrap" id="back6">
+			<div id="footer_box">
+				<p class="style1" id="footer-text5">
+					<b>
+				<em><br>Harmony of two different <br>architecture style</em>
+			</p>
+
+			<p class="style1" id="footer-text3">
+				<em>Bokyung kim<br>ssarbkimbo12@hknu.ac.kr | 82+10-2475-4726</em><br><em>@shinin9_9reatly_<br>
+				Dangwang-dong,Anseong of Korea<br>Department of digital contents design<br>Hankyong national univ.</em>
+			</p>
+			</div>
+
+			<div id="footer_line">
+			</div>
+		</div>
+</footer>
+
+</body>
+</html>
