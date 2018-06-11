@@ -39,15 +39,15 @@
 
 		.style1 {font-family: 'Roboto Condensed', sans-serif;}
 		.style2 {font-family: 'EB Garamond',serif;}
-		body{background:white;}
+		body{background:#d5d6d4;}
 
 		.wrap{width: 1400px; margin:auto; position: relative; overflow: hidden;}
 
-		#back1{background:url("./source/section1.png");background-size: 100% auto; height: 1348px;}
-		#back2{background:url("./source/section2.png");background-size: 100% auto; height: 1966px;}
-		#back3{background:url("./source/section3.png");background-size: 100% auto; height: 4617px;}
-		#back4{background:url("./source/section4.png");background-size: 100% auto; height: 4319px;}
-		#back5{background:url("./source/section4.png");background-size: 100% auto; height: 1823px;}
+		#back1{/*background:url("./source/section1.png");*/background-size: 100% auto; height: 1348px;}
+		#back2{/*background:url("./source/section2.png");*/background-size: 100% auto; height: 1966px;}
+		#back3{/*background:url("./source/section3.png");*/background-size: 100% auto; height: 4617px;}
+		#back4{/*background:url("./source/section4.png");*/background-size: 100% auto; height: 4319px;}
+		#back5{/*background:url("./source/section5.png");*/background-size: 100% auto; height: 1823px;}
 		#back6{/*background:url("./source/footer.png");*/background-size: 100% auto; height: 300px;}
 	
 
@@ -56,37 +56,41 @@
 
 		/*----------menu-----------------*/
 
-		a:link, a:visited, a:active{text-decoration: none; color:#aa2c13;}
+	
+		a:link, a:visited, a:active{text-decoration: none; color:#f0ede3;}
 		
 
-		#nav1{width:200px; background:#f0ede3; margin:0;height:30px; position:fixed; z-index: 9999; left:-20px; top:20px;}
-		#nav1:hover{left:0px;-webkit-transition: left 0.5s;
+		#nav1{width:700px; background:#aa2c13; margin:0; height:50px; position:fixed; z-index: 9999; left:0px; top:-42px;}
+		#nav1:hover{top:-15px;-webkit-transition: top 0.2s;
     		-webkit-transition-timing-function: linear;}
 		#nav1 #mainNav{float:bottom; margin: 0;padding: 0; width: 200px;}
 		
-		#nav1 #mainNav li{float:left; width: 200px; list-style: none;}
+		#nav1 #mainNav li{float:left; width: 700px; list-style: none;}
 		
-		#nav1 #mainNav a{display:block; line-height: 30px; text-align: right;}
+		#nav1 #mainNav a{display:block; line-height: 60px; text-align: center;}
 		
-		#nav1 #menuItem a:hover{text-decoration:underline;}
+		#nav1 #menuItem {font-size: 1.3em;}
 
+		#menulist{background: green;}
 
 /*--------------------------------*/
-		#nav2 {width:200px; background:white; margin:0;height:30px; position:fixed; z-index: 9999; left:-20px; top:80px;}
-		#nav2:hover{left:0px;-webkit-transition: left 0.5s;
+		#nav2 {width:700px; background:#aa2c13; margin:0;height:50px; position:fixed; z-index: 9999; right:0px; top:-42px;}
+		#nav2:hover{top:-15px;-webkit-transition: top 0.2s;
     		-webkit-transition-timing-function: linear;}
 
 		#nav2 #mainNav2{float:bottom; margin: 0;padding: 0; width: 200px;}
 		
-		#nav2 #mainNav2 li{float:left; width: 200px; list-style: none;}
+		#nav2 #mainNav2 li{float:left; width: 700px; list-style:none;}
 		
-		#nav2 #mainNav2 a{display:block; line-height: 30px; text-align: right;}
+		#nav2 #mainNav2 a{display:block; line-height: 60px; text-align: center;}
+
+		#nav2 #menuItem2 {font-size: 1.3em;}
 		
-		#nav2 #menuItem2 a:hover{text-decoration:underline;}
 /*----------------------------------*/
 
-		#nav3 {width:300px;  margin:0;height:35px; position:fixed; z-index: 9999; left:-55px; top:48px;}
-		#nav3:hover{left:-2px;-webkit-transition: left 0.5s;
+		#nav3 {width:300px;  margin:0;height:35px; position:fixed; z-index: 9999; left:calc(50% - 50px); top:-55px;}
+		
+		#nav3:hover {top:-30px;-webkit-transition: top 0.2s;
     		-webkit-transition-timing-function: linear;}
 
 		#nav3 #mainNav3{float:bottom; margin: 0;padding: 0; width: 200px;}
@@ -95,7 +99,7 @@
 		
 		#nav3 #mainNav3 a{display:block; line-height: 30px;}
 		
-		#nav2 #menuItem2 a:hover{text-decoration:underline;}
+		#menuItem3 img {width:100px;}
 
 /*---------------------top-----------------------*/
 		#top{
@@ -107,6 +111,223 @@
 	}
 
 
+/*---------------------section1-------------------*/
+
+/*---------------------이미지-----------------------*/
+		#contents1 #section1_circle {top:130px; left:450px;}
+
+		#contents1 #section1_img1 {width:565px; top:220px; left:100px;}
+		#contents1 #section1_img2 {width:565px; top:361px; left:190px;
+		-webkit-animation:mymove2 2s;
+				animation: mymove2 2s;}
+				@keyframes mymove2{
+					from{left: 100px;}
+					to{left: 190px;}}
+		#contents1 #section1_img3 {width:565px; top:432px; left:100px;}
+		
+		#contents1 #section1_img4 {width:565px; top:644px; left:40px;
+			-webkit-animation:mymove3 1.5s;
+				animation: mymove3 1.5s;}
+				@keyframes mymove3{
+					from{left: 100px;}
+					to{left: 40px;}}
+		#contents1 #section1_img5 {width:565px; top:666px; left:130px;
+		-webkit-animation:mymove4 1.5s;
+				animation: mymove4 1.5s;}
+				@keyframes mymove4{
+					from{left: 100px;}
+					to{left: 130px;}}
+
+		#contents1 #section1_img6 {width:565px; top:885px; left:100px;}
+
+		#contents1 #section1_line1 {width:488px; top:355px; left: -5px;
+			-webkit-animation:mymove5 1.6s;
+				animation: mymove5 1.6s;}
+				@keyframes mymove5{
+					from{left: 100px;}
+					to{left: -5px;}}
+
+		#contents1 #section1_line2 {width:439px; top:430px; left: -5px;
+			-webkit-animation:mymove5 1s;
+				animation: mymove5 1s;}
+				@keyframes mymove5{
+					from{left: 100px;}
+					to{left: -5px;}}
+		#contents1 #section1_line3 {width:666px; top:660px; right: -5px;
+			-webkit-animation:mymove6 2s;
+				animation: mymove6 2s;}
+				@keyframes mymove6{
+					from{right: 400px;}
+					to{right: -5px;}} 
+
+		#contents1 #section1_square {width:559; top:930px; left:560px;}
+
+/*---------------------텍스트-----------------------*/
+		#contents1 h2{color: black; font-size: 3.5em; width:230px; top:140px; left:170px;height: 40px;}
+		#contents1 h1{color:#aa2c13; width:300px;font-size: 9.5em; top:-15px; left: 450px; line-height: 1.3em;}
+		#contents1 #section1_history {color:#aa2c13; width:300px;font-size: 3em; top:885px; left: 920px; line-height: 1.3em;}
+		#contents1 #section1_text1 {background: white; font-size: 1.5em; width: 750px; height: 180px; text-align: justify; letter-spacing: -0.3px;top:1100px;left:610px;line-height: 45px;}
+
+/*---------------------section2-------------------*/
+/*---------------------이미지-----------------------*/
+		#contents2 #section2_img1 {height:540px;left:-50px; top:43px;}
+
+		#contents2:hover #section2_img1 {left:310px;
+		-webkit-transition: left 0.5s;
+		-webkit-transition-timing-function: linear;}
+
+		#contents2 #section2_img2 {width:435px; left:945px; top:13px;}
+
+		#contents2 #section2_line1 {width:207px; left:980px; top:55px;}
+
+		#contents2 #section2_line2 {left:960px; top:80px;}
+
+		#contents2 #section2_line3 {left:882px; top:575px;}
+
+		#contents2 #section2_img3 {left:0px; top:650px;}
+
+		#contents2 #section2_circle {left:580px; top:1480px;}
+
+		#contents2 #section2_line4 {left:50px; top:1310px;}
+
+		#contents2 #section2_line5 {left:810px; top:1675px;}
+
+/*---------------------텍스트-----------------------*/
+		#contents2 #section2_text1 {background: white; font-size: 1.5em; width: 580px; height: 540px; text-align: justify; letter-spacing: -0.3px;top:18px;left:365px;line-height: 45px;}
+
+		#contents2 #section2_text2 {background: white; font-size: 1.5em; width: 540px; height: 524px; text-align: justify; letter-spacing: -0.3px;top:695px;left:850px;line-height: 44px;}
+
+		#contents2 #section2_text3 {background: white; font-size: 1.5em; width: 540px; height: 310px; text-align: justify; letter-spacing: -0.3px;top:1250px;left:850px;line-height: 45px;}
+
+		#contents2 #section2_text4 {font-size: 2em; width: 800px; text-align:left; letter-spacing: -0.3px;top:1630px;left:calc(50% - 400px);line-height: 45px;}
+
+/*---------------------section3-------------------*/
+/*---------------------이미지-----------------------*/
+		#contents3 #section3_line1 {left:calc(50% - 3px); top:500px;}
+
+		#contents3:hover #section3_line1 {top:32px;
+		-webkit-transition: top 0.5s;
+		-webkit-transition-timing-function: linear;}
+
+		#contents3 #section3_line2 {left:380px; top:1310px;}
+
+		#contents3 #section3_line3 {left:515px; top:2315px;}
+
+		#contents3 #section3_line4 {left:660px; top:3960px;}
+
+		#contents3 #section3_line5 {left:calc(50% - 3px); top:3885px;}
+
+		#contents3 #section3_img1 {top:300px; left:265px; }
+
+		#contents3 #section3_img2 {top:1682px; left:690px; }
+
+		#contents3 #section3_img3 {top:2750px; left:0px;}
+
+		#contents3 #section3_square {top:365px; left:35px; }
+
+		#contents3 #section3_circle {top:2680px; left:70px; }
+/*---------------------텍스트-----------------------*/
+
+		#contents3 #section3_text1 {background: white; font-size: 1.5em; width: 585px; height: 355px; text-align:
+		justify; letter-spacing: -0.3px;top:1110px;left:265px;line-height: 45px;}
+
+		#contents3 #section3_text2 {background: white; font-size: 1.5em; width: 585px; height: 640px; text-align:
+		justify; letter-spacing: -0.3px;top:1660px;left:80px;line-height: 43px;}
+
+		#contents3 #section3_text3 {background: white; font-size: 1.5em; width: 710px; height: 300px; text-align:
+		justify; letter-spacing: -0.3px;top:2620px;left:670px;line-height: 43px;}
+
+		#contents3 #section3_characteristics{color:#aa2c13; width:300px;font-size: 3em; top:320px; left: 50px; line-height: 1.3em;}
+
+		#contents3 #section3_text4 {font-size: 2em; width: 300px; text-align:right; letter-spacing: -0.3px;top:3950px;left:380px;line-height: 45px;}
+
+/*---------------------section4-------------------*/
+/*---------------------이미지-----------------------*/
+		#contents4 #section4_square {top:25px; right: 30px;}
+		#contents4 #section4_line1 {top:520px; left: 250px;}
+		#contents4 #section4_line2 {top:1375px; left: 400px;}
+		#contents4 #section4_line3 {top:2450px; left: 530px;}
+
+		#contents4 #section4_img1 {top:545px; left: 0px;}
+
+		#contents4 #section4_img2 {top:1300px; right: 145px;}
+
+		#contents4 #section4_img3 {top:2490px; left: 42px;}
+
+		#contents4 #section4_img4 {top:3145px; right: -10px;}
+
+		#contents4 #section4_circle {top:3330px; left: 500px;}
+/*---------------------텍스트-----------------------*/
+		#contents4 #section4_tadaostyle{color:#aa2c13; width:300px;font-size: 3em; top:-20px; right: 20px; line-height: 1.3em;}
+
+		#contents4 #section4_text1 {background: white; font-size: 1.5em; width: 710px; height: 385px; text-align:
+		justify; letter-spacing: -0.3px;top:215px;left:640px;line-height: 43px;}
+
+		#contents4 #section4_text2 {background: white; font-size: 1.5em; width: 510px; height: 510px; text-align:
+		justify; letter-spacing: -0.3px;top:790px;left:855px;line-height: 43px;}
+
+		#contents4 #section4_text3 {background: white; font-size: 1.5em; width: 600px; height: 555px; text-align:
+		justify; letter-spacing: -0.3px;top:1485px;left:30px;line-height: 43px;}
+
+		#contents4 #section4_text4 {background: white; font-size: 1.5em; width: 1340px; height: 260px; text-align:
+		justify; letter-spacing: -0.3px;top:2085px;left:calc(50% - 670px);line-height: 43px;}
+
+
+		#contents4 #section4_text5 {background: white; font-size: 1.5em; width: 590px; height:800px; text-align:
+		justify; letter-spacing: -0.3px;top:3280px;left:30px;line-height: 47px;}
+
+/*------------------도형-----------------------*/
+
+		#contents4 #section4_caption1 {padding:0px;background: black; width: 120px; height: 30px; left:-200px; top:400px;}
+
+		#contents4 #section4_caption1 p {color:white; text-align: center; line-height: 2px;}
+
+		#contents4 #section4_captionbox {float:left;width:847px; height:617px; top:545px; overflow: hidden;}
+
+		#contents4 #section4_captionbox:hover #section4_caption1 {left:0px;-webkit-transition:left 0.5s;
+		-webkit-transition-timing-function: linear;}
+
+		
+		#contents4 #section4_caption2 {padding:0px;background: black; width: 265px; height: 30px; right:-300px; top:650px;}
+
+		#contents4 #section4_caption2 p {color:white; text-align: center; line-height: 2px;}
+
+		#contents4 #section4_captionbox2 {float:right; width:600px; right:140px;height:800px; top:1300px; overflow: hidden;}
+
+		#contents4 #section4_captionbox2:hover #section4_caption2 {right:0px;-webkit-transition:right 0.5s;
+		-webkit-transition-timing-function: linear;}
+
+
+		#contents4 #section4_caption3 {padding:0px;background: black; width: 260px; height: 30px; left:-300px; top:400px;}
+
+		#contents4 #section4_caption3 p {color:white; text-align: center; line-height: 2px;}
+
+		#contents4 #section4_captionbox3 {float:left;width:940px; height:617px; left:40px; top:2485px; overflow: hidden;}
+
+		#contents4 #section4_captionbox3:hover #section4_caption3 {left:0px;-webkit-transition:left 0.5s;
+		-webkit-transition-timing-function: linear;}
+
+		#contents4 #section4_caption4 {padding:0px;background: black; width: 280px; height: 30px; right:-300px; top:150px;}
+
+		#contents4 #section4_caption4 p {color:white; text-align: center; line-height: 2px;}
+
+		#contents4 #section4_captionbox4 {float:right; width:800px; right:105px;height:1050px; top:3140px; overflow: hidden;}
+
+		#contents4 #section4_captionbox4:hover #section4_caption4 {right:0px;-webkit-transition:right 0.5s;
+		-webkit-transition-timing-function: linear;}
+
+/*---------------------section5-------------------*/
+/*---------------------이미지-----------------------*/
+		#contents5 #section5_line1 {left: calc(50% - 3px); top:90px;}
+		#contents5 #section5_line2 {left: calc(50% - 3px); top:1435px;}
+
+		#contents5 #section5_img1 {left: calc(50% - 566.5px); top:370px;}
+
+		#contents5 #section5_square {right:-10px; top:995px;}
+/*---------------------텍스트-----------------------*/
+
+
+/*------------------footer---------------------*/
 		#contents6 #footer_box{width: 1400px; height: 280px; background:#aa2c13; top:20px;}
 
 		#contents6 #footer_line{width: 1400px; height: 5px; background:#aa2c13; top:12px;}
@@ -114,6 +335,9 @@
 		#contents6 #footer-text3 {color:#f0ede3;font-size: 1em; width: 500px; text-align: right; letter-spacing:2px;top:20px;right:30px;line-height: 35px;}
 
 		#contents6 #footer-text5 {color:#f0ede3;font-size: 2em; width: 800px; text-align: justify; letter-spacing:2px;top:50px;left:30px;line-height: 35px;}
+
+
+
 </style>
 
 </head>
@@ -129,7 +353,7 @@
 <nav id="nav1">
 			<ul id="mainNav">
 				<li id="menuItem">
-					<a href="https://ssarbkimbo12.github.io/K_traditional/" target="_blank" class="style2"><b>Korean traditioanl</b></a>
+					<a href="https://ssarbkimbo12.github.io/K_traditional/" target="_blank" class="style2"><b>Korean traditional</b></a>
 				</li>
 			</ul>
 </nav>
@@ -162,28 +386,172 @@
 <!---------------section1------------------>
 <header id="contents1">
 		<div class="wrap" id="back1">
+			<img  id="section1_circle" src="./source/section1_circle.png">
+
+			<img  id="section1_line1" src="./source/section1_line1.png">
+
+			<img  id="section1_line2" src="./source/section1_line2.png">
+			
+			<img  id="section1_line3" src="./source/section1_line3.png">
+			
+			<img  id="section1_img1" src="./source/section1_img1.png">
+			
+			<img  id="section1_img2" src="./source/section1_img2.png">
+			
+			<img  id="section1_img3" src="./source/section1_img3.png">
+			
+			<img  id="section1_img4" src="./source/section1_img4.png">
+			
+			<img  id="section1_img5" src="./source/section1_img5.png">
+			
+			<img  id="section1_img6" src="./source/section1_img6.png">
+
+			<h1 class="style1"> <b><em>Japanese modern architecture </em></b> </h1>
+
+			<p class="style2" id="section1_text1"><b>Modern architecture in Japan is divided into four periods. The first period was the period from 1955 to the 1964 Tokyo Olympic Games, and the society and organization were renewed. It was the time when society was beginning to stabilize, challenging not only architecture but everything.</b></p>
+
+			<img  id="section1_square" src="./source/section1_square.png">
+
+			<p class="style1" id="section1_history"><b><em> History</em></b> </p>
+
+			<h2 class="style2"> <b> All about</b> </h2>
+
 		</div>
 </header>
-
+<!------------------------section2------------------------>
 <section id="contents2">
 		<div class="wrap" id="back2">
+			<img  id="section2_line1" src="./source/section2_line1.png">
+			<img  id="section2_line2" src="./source/section2_line2.png">
+			<img  id="section2_line3" src="./source/section2_line3.png">
+			<img  id="section2_line4" src="./source/section2_line4.png">
+			<img  id="section2_line5" src="./source/section2_line5.png">
+
+
+			<img id="section2_img1" src="./source/section2_img1.png">
+			<img id="section2_img2" src="./source/section2_img2.png">
+
+
+			<p class="style2" id="section2_text1"><b>The second period is from 1965 to 1973. After this day's Olympics, it has a reputation as an economic powerhouse, and a new level of architecture has begun. It was the time when the two sides were trying to show off their economic power while having a human life and leisure time, and the clash occurred. The most important social change of this era was the opening of the Shinkansen that matched the Olympics. As a result, the movement and distribution have improved dramatically and it has become possible to enter the world's power. In addition, new housing and urban development projects were carried out to raise the level of residential living.</b></p>
+			<img id="section2_img3" src="./source/section2_img3.png">
+			<p class="style2" id="section2_text2"><b>The third period is from 1974 to 1985 and is called the 'Age of Maturity'. The radical large-scale construction projects that took place during the first and second periods produced a number of problems such as air pollution, factory disposal and deterioration of the urban environment. In 1974, due to the oil crisis, economic slowdown, changes in living conditions, Changes in the industrial structure and production, changes in the service industry and distribution, and changes in the structure of the society itself led to the transformation of the structure and maturity of the structure.</b></p>
+
+			<img id="section2_circle" src="./source/section2_circle1.png">
+
+			<p class="style2" id="section2_text3"><b>Finally, the fourth period refers to the period after 1986, when there is a personality, and while pursuing globalization, it is time to recognize the tradition and Japan at the same time experiencing prosperity and bubble. It can also be said that the recognition of new possibilities and the reflection of the past age are required at the same time.</b></p>
+
+			<p class="style1" id="section2_text4"><b><em>"I don't listen to music well.<br>To be honest, I hear the wind.<br> I used to listen to modern jazz in the past <br> but I don't even listen to it in my car these days.<br> Instead, I can concentrate on the visual."<br>-Ando Tadao</em></b></p>
+
 		</div>
 </section>
+
+<!------------------------section3------------------------>
 
 <section id="contents3">
 		<div class="wrap" id="back3">
+			<img id="section3_line1" src="./source/section3_line1.png">
+			<img id="section3_line2" src="./source/section3_line2.png">
+			<img id="section3_line3" src="./source/section3_line3.png">
+
+			<img id="section3_line4" src="./source/section3_line4.png">
+
+			<img id="section3_line5" src="./source/section3_line5.png">
+			
+			<img id="section3_img1" src="./source/section3_img1.png">
+
+			<img id="section3_img2" src="./source/section3_img2.png">
+
+			<img id="section3_circle" src="./source/section3_circle1.png">
+
+			<img id="section3_img3" src="./source/section3_img3.png">
+
+			<img id="section3_square" src="./source/section3_square1.png">
+
+			<p class="style2" id="section3_text1"><b>To understanding Japanese modern architecture, we need to understand the relationship between modern architecture and Japan's traditional culture. When the world began embracing international styles of modernist design in the 20th century, Europe and the United States faced a challenge of abstracting architectural features into their simplest versions. Architects of Japan did not necessarily share this challenge. </b></p>
+
+			<p class="style2" id="section3_text2"><b>Throughout much of Japanese history, the concepts of simplicity, honesty, and purity have guided architecture. What the rest of the world calls modern, Japan can claim as tradition.
+Of course, creating modernist architecture has presented many challenges in Japan. However, the artful combination of modern tastes with respect to their traditions is what has set these architects apart. Japan itself puts more effort into maintaining and reinterpreting its traditions than nearly any other nation. Rather than simply allowing traditions to stagnate in rehearsed repetition, many Japanese artists have reinvented traditions through new art forms like anime. Architecture in Japan, therefore, is only one part of a larger cultural movement to evaluate the meaning of modern Japanese identity.</b></p>
+
+		<p class="style2" id="section3_text3"><b>With of that being said, we can look at a few characteristics which are really defining modern Japanese architecture. One is the focus on simple forms and an honest treatment of materials. While these are both tenets of international modern architecture, these ideas have held spiritual and philosophical meaning in Japanese Shinto and Buddhist architecture for centuries. One of the masters of this is Tadao Ando, winner of the Pritzker Prize in 1995. </b></p>
+
+		<p class="style1" id="section3_characteristics"><b><em>characteristics</em></b></p>
+
+		<p class="style1" id="section3_text4"><b><em>“Japanese <br> architects have<br> become a new<br> guard for modern<br> architecture,<br> releasing <br>innovative,<br> functional, and <br>aesthetic designs<br> that are lauded<br> around the world.”</em></b></p>
 		</div>
 </section>
+
+<!------------------------section4------------------------>
 
 <section id="contents4">
 		<div class="wrap" id="back4">
+			<img id="section4_line1" src="./source/section4_line1.png">
+
+			<img id="section4_line2" src="./source/section4_line2.png">
+
+			<img id="section4_line3" src="./source/section4_line3.png">
+
+			<p class="style1" id="section4_tadaostyle"><b><em>Tadao style</em></b></p>
+
+			<p class="style2" id="section4_text1"><b>Strongly influenced by the religions and aesthetics of Japan, Ando's work is defined by its elegant simple forms that combine into rational and complex structures. In fact, his style has been said to share the artistic philosophy of another Japanese art form: haiku. In haiku, deep spiritual, philosophical, and personal meanings can be discovered through the simplest of forms. Ando achieves this through the use of smooth, flat concrete and glass. The materials are unadorned and undecorated, representing the simplest and most honest version of a structure.</b></p>
+
+			<p class="style2" id="section4_text2"><b>Ando's architectural style is said to create a "haiku" effect, emphasizing nothingness and empty space to represent the beauty of simplicity. He favors designing complex spatial circulation while maintaining the appearance of simplicity. As an architect, he believes that architecture can change society, that "to change the dwelling is to change the city and to reform society" Werner Blaser has said, "Good buildings by Tadao Ando create memorable identity and therefore publicity, which in turn attracts the public and promotes market penetration".</b></p>
+
+			<p class="style2" id="section4_text3"><b>The simplicity of his architecture emphasizes the concept of sensation and physical experiences, mainly influenced by Japanese culture. The religious term Zen, focuses on the concept of simplicity and concentrates on inner feeling rather than outward appearance. Zen influences vividly show in Ando’s work and became its distinguishing mark. In order to practice the idea of simplicity, Ando's architecture is mostly constructed with concrete, providing a sense of cleanliness and weightlessness (even though concrete is a heavy material) at the same time. Due to the simplicity of the exterior, construction, and organization of the space are relatively potential in order to represent the aesthetic of sensation.</b></p>
+
+			<p class="style2" id="section4_text4"><b>Besides Japanese religious architecture, Ando has also designed Christian churches, such as the Church of the Light and the Church in Tarumi. Although Japanese and Christian churches display distinct characteristics, Ando treats them in a similar way. He believes there should be no difference in designing religious architecture and houses. As he explains,
+“We do not need to differentiate one from the other. Dwelling in a house is not only a functional issue, but also a spiritual one. The house is the locus of heart, and the heart is the locus of god. Dwelling in a house is a search for the heart as the locus of god, just as one goes to church to search for god. An important role of the church is to enhance this sense of the spiritual. In a spiritual place, people find peace in their heart, as in their homeland.”</b></p>
+
+			<img id="section4_square" src="./source/section4_square1.png">
+			
+			<img id="section4_img1" src="./source/section4_img1.png">
+			<img id="section4_img2" src="./source/section4_img2.png">
+
+			<img id="section4_img3" src="./source/section4_img3.png">
+
+			<img id="section4_circle" src="./source/section4_circle1.png">
+
+			<div id="section4_captionbox">
+				<div class="style1" id="section4_caption1">
+			<p><b><em>Rokko Housing</em></b></p>
+				</div>
+			</div>
+
+			<div id="section4_captionbox2">
+				<div class="style1" id="section4_caption2">
+			<p><b><em>Hyogo prefectural museum of art</em></b></p>
+				</div>
+			</div>
+
+			<div id="section4_captionbox3">
+				<div class="style1" id="section4_caption3">
+			<p><b><em>Himeji City Museum of Literature</em></b></p>
+				</div>
+			</div>
+			
+			<p class="style2" id="section4_text5"><b>Besides speaking of the spirit of architecture, Ando also emphasises the association between nature and architecture. He intends for people to easily experience the spirit and beauty of nature through architecture. He believes architecture is responsible for performing the attitude of the site and makes it visible. This not only represents his theory of the role of architecture in society but also shows why he spends so much time studying architecture from physical experience.Tadao Ando's body of work is known for the creative use of natural light and for structures that follow natural forms of the landscape, rather than disturbing the landscape by making it conform to the constructed space of a building. Ando's buildings are often characterized by complex three-dimensional circulation paths. These paths weave in between interior and exterior spaces formed both inside large-scale geometric shapes and in the spaces between them.</b></p>
+
+			<img id="section4_img4" src="./source/section4_img4.png">
+
+				<div id="section4_captionbox4">
+				<div class="style1" id="section4_caption4">
+			<p><b><em>Hyogo prefectural museum of art</em></b></p>
+				</div>
+			</div>
+
+		</div>
+</section>
+<!------------------------section5------------------------>
+<section id="contents5">
+		<div class="wrap" id="back5">
+			<img id="section5_line1" src="./source/section5_line1.png">
+			<img id="section5_line2" src="./source/section5_line1.png">
+			<img id="section5_square" src="./source/section5_square1.png">
+			<img id="section5_img1" src="./source/section5_img1.png">
 		</div>
 </section>
 
-<section id="contents5">
-		<div class="wrap" id="back5">
-		</div>
-</section>
+
+
 
 <footer id="contents6">
 		<div class="wrap" id="back6">
